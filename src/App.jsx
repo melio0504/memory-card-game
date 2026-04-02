@@ -113,12 +113,12 @@ export default function App() {
 
     if (gameStatus === 'win') {
       winnerRef.current.currentTime = 0
-      void winnerRef.current.play().catch(() => {})
+      void winnerRef.current.play().catch(() => { })
     }
 
     if (gameStatus === 'fail') {
       loserRef.current.currentTime = 0
-      void loserRef.current.play().catch(() => {})
+      void loserRef.current.play().catch(() => { })
     }
   }, [gameStatus])
 
