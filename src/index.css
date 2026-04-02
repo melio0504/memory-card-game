@@ -9,7 +9,17 @@
 }
 
 :root {
-  /* TODO: Add root variables here */
+  --bg-main: #111417;
+  --bg-panel: #1c2328;
+  --bg-card: #252f36;
+  --bg-card-hover: #2d3b45;
+  --bg-overlay: rgba(8, 11, 14, 0.78);
+  --text-main: #eef4f6;
+  --text-soft: #b8c7cf;
+  --accent: #ffc857;
+  --accent-2: #ff8c42;
+  --outline: #3b4a53;
+  --shadow: rgba(0, 0, 0, 0.45);
 }
 
 body {
